@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale==1.0"/>
+        <title>CS3220 Example</title> 
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <style type="text/css">  
+            table, th, td {
+                border: 2px solid green;
+                border-radius: 10px;
+                text-align: center;
+                margin: auto;
+            }
+            p {
+                color: red;
+                font-size: 200%;
+            }  
+            .blue{
+                border: 2px solid blue;
+                color: blue
+            }
+            .lime {
+                border: 2px solid lime;
+                color: lime
+            }
+        </style>   
+    </head>
+    <body>
+        <table style="border: 2px solid black">
+            <tr>
+                <th>Item</th><th>Quantity</th><th>Price</th>
+                </tr>
+                <tr>
+                <td>Lamp</td><td style="border: 2px solid black; border-radius: 10px;">1</td><td>$15</td>
+                </tr>
+                <tr>
+                <td>Book</td><td>2</td><td>$10</td>
+                </tr>
+        </table>
+        <br>
+        <form action="https://www.google.com/search" method="get">
+            Google: <input type="text" name="q" value="" />
+            <input type="submit" name="search" value="Search" />
+            <form>
+            <br>
+            <form>
+                <textarea rows="10" cols="100"></textarea>
+            </form>
+            <br>
+            <form>
+                <select name=“grade”>
+                    <option value=“A”>Great</option>
+                    <option value=“B”>Good</option>
+                    <option value=“C” selected>Passed</option>
+                    <option value=“NC”>No Credit</option>
+                    </select>
+            </form>         
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Address</legend>
+                    Street: <input type=“text” name=“street” />
+                    City: <input type=“text” name=“city” />
+                    Zip: <input type=“text” name=“zip” />
+                    </fieldset>
+            </form>     
+            <p style="color: blue; font-size: 100%;">This is a paragraph</p> 
+            <p style="color: red; font-size: 200%;">This is a paragraph</p> 
+            <p style="color: lime; font-size: 300%;">This is a paragraph</p> 
+    </body>
+</html>

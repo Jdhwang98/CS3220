@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+
+}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    color: white
+}
+
+form {
+    margin-top: 20px;
+    text-align: right;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+.center {
+    margin: auto;
+    width: 60%
+}
+
+#leftName {
+    color: blue;
+}
+
+#centerName {
+    color: white;
+}
+
+#rightName {
+    color: red
+}
