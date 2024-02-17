@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad) ;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: gray;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+a {
+    padding-right: 30px
+}
+
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: hotpink
+}
+
+a:active {
+    color: yellow;
+}
+
+#navigationFont {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.myTable {
+    width: 50%;
+    display: table;
+    margin: auto;
+}
+
+.black-card { 
+    background-color: rgb(59, 58, 58);
+}
+
+.card-title {
+    color: white;
+}
+
+
+.form-label {
+    color: white
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="./lab4.css">
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+      <div class="card black-card" style="width: 400px;">
+        <div class="card-body text-center"> 
+          <h2 class="card-title">Login</h2>
+          <label class="mb-3 card-title">Please enter your login and password!</label>
+          <br>
+          <form>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+              <label for="emailInput" class="form-label">Email address</label>
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+              <label for="passwordInput" class="form-label">Password</label>
+            </div>
+            <div class="text-center">
+              <a href="#">Forgot password?</a>
+            </div>
+            <br>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-primary w-50">Login</button>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-center">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-google"></i>
+              </div>
+              <div class="mb-3 text-center">
+                <div class="container signin">
+                  <p class="card-title">Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- make sure to do the register link 
+make sure to change index to Login 
+make the login go to the articles -->
