@@ -7,6 +7,7 @@ footer {
     position: absolute;
     bottom: 0;
     background-color: gray;
+    color:white;
 }
 
 form {
@@ -34,6 +35,10 @@ a:active {
     color: yellow;
 }
 
+i {
+    color:white;
+}
+
 #navigationFont {
     font-weight: bold;
     text-transform: uppercase;
@@ -56,4 +61,12 @@ a:active {
 
 .form-label {
     color: white
+}
+
+.sign-up-text {
+    color: gray;
+}
+
+.a-login-text {
+    color: gray !important;
 }
