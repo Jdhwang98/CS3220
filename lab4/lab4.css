@@ -1,5 +1,8 @@
 body {
-    background-image: linear-gradient(120deg, #2980b9, #8e44ad) ;
+    min-height: 100vh;
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+    margin: 0;
+    padding: 0;
 }
 
 footer {
